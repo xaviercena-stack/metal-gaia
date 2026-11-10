@@ -1,26 +1,23 @@
 export const company = {
   name: 'Métal Gaïa',
   tagline:
-    'Société commerciale industrielle de pièces fabriquées en métal coulé, au service des clients au Canada.',
+    'Société commerciale industrielle de pièces fabriquées à partir de métal coulé, au service des clients au Canada.',
   mission:
     'Fournir des pièces de qualité équivalentes ou supérieures selon les spécifications des clients à des coûts moindres dans le but d’augmenter leurs bénéfices.',
-  addressLines: ['2435, route Lagueux', 'Lévis (Québec) G6J 1Z2'],
-  phone: '418-836-7878',
+  leadership:
+    'Métal Gaïa est dirigée par Guy Turgeon, aux commandes avec ses fils — une entreprise familiale au service de l’industrie canadienne.',
+  addressLines: ['2435 route Lagueux', 'Lévis (Québec) G6J 1Z2'],
+  phone: '1 (418) 836-7878',
   phoneHref: 'tel:+14188367878',
+  email: 'admin@metalgaia.com',
   people: [
     {
-      role: 'Ventes',
+      role: 'Direction',
       name: 'Guy Turgeon',
+      detail: 'Aux commandes avec ses fils',
       email: 'guy@metalgaia.com',
       phone: '418-806-3472',
       phoneHref: 'tel:+14188063472',
-    },
-    {
-      role: 'Administration',
-      name: 'Jean Yves Lessard',
-      email: 'jeanyves@metalgaia.com',
-      phone: '418-836-7878',
-      phoneHref: 'tel:+14188367878',
     },
   ],
 }
@@ -156,5 +153,6 @@ export const nav = [
   { to: '/produits', label: 'Produits' },
   { to: '/procede', label: 'Procédé' },
   { to: '/realisations', label: 'Réalisations' },
+  { to: '/equipe', label: 'Notre équipe' },
   { to: '/contact', label: 'Contact' },
 ]

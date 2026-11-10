@@ -35,6 +35,10 @@ export default function Home() {
             <p className="section__eyebrow">Mission</p>
             <h2 className="section__title">Qualité industrielle, coûts maîtrisés</h2>
             <p className="mission__quote">{company.mission}</p>
+            <p className="section__lead" style={{ marginTop: '1.5rem', marginBottom: 0 }}>
+              {company.leadership}{' '}
+              <Link to="/equipe">Notre équipe</Link>
+            </p>
           </div>
           <div className="mission__aside">
             <img
