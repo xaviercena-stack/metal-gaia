@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { advantages, company } from '../data.js'
 
+const videoEmbedSrc = `https://www.youtube-nocookie.com/embed/${company.video.youtubeId}?rel=0&modestbranding=1`
+
 export default function Home() {
   return (
     <>
@@ -44,6 +46,28 @@ export default function Home() {
             <img
               src="/images/pelle.png"
               alt="Composant d’excavatrice en métal"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="section section--tight video-section" aria-labelledby="video-heading">
+        <div className="shell">
+          <p className="section__eyebrow">En images</p>
+          <h2 className="section__title" id="video-heading">
+            Présentation Métal Gaïa
+          </h2>
+          <p className="section__lead">
+            La même vidéo que sur metalgaia.com — un aperçu de l&apos;entreprise et de son savoir-faire.
+          </p>
+          <div className="video-frame">
+            <iframe
+              src={videoEmbedSrc}
+              title={company.video.title}
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              referrerPolicy="strict-origin-when-cross-origin"
             />
           </div>
         </div>

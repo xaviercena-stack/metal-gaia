@@ -5,7 +5,12 @@ export const company = {
   mission:
     'Fournir des pièces de qualité équivalentes ou supérieures selon les spécifications des clients à des coûts moindres dans le but d’augmenter leurs bénéfices.',
   leadership:
-    'Métal Gaïa est dirigée par Guy Turgeon, aux commandes avec ses fils — une entreprise familiale au service de l’industrie canadienne.',
+    'Métal Gaïa est dirigée par Guy Turgeon — une entreprise au service de l’industrie canadienne.',
+  video: {
+    youtubeId: 'vKHj394io3g',
+    title: 'Métal Gaïa — présentation',
+    sourceUrl: 'https://www.youtube.com/watch?v=vKHj394io3g',
+  },
   addressLines: ['2435 route Lagueux', 'Lévis (Québec) G6J 1Z2'],
   phone: '1 (418) 836-7878',
   phoneHref: 'tel:+14188367878',
@@ -14,7 +19,7 @@ export const company = {
     {
       role: 'Direction',
       name: 'Guy Turgeon',
-      detail: 'Aux commandes avec ses fils',
+      detail: 'Direction',
       email: 'guy@metalgaia.com',
       phone: '418-806-3472',
       phoneHref: 'tel:+14188063472',

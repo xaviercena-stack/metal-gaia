@@ -9,8 +9,8 @@ export default function Contact() {
         <div className="shell">
           <h1>Nous joindre</h1>
           <p>
-            Guy Turgeon et ses fils sont aux commandes — une équipe accessible pour cadrer votre
-            besoin et livrer la pièce adaptée.
+            Guy Turgeon est aux commandes — une équipe accessible pour cadrer votre besoin et
+            livrer la pièce adaptée.
           </p>
         </div>
       </header>

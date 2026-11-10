@@ -49,8 +49,8 @@ export default function Layout() {
       <footer className="site-footer">
         <div className="shell site-footer__inner">
           <p>
-            <strong>{company.name}</strong> — dirigée par Guy Turgeon avec ses fils. Pièces en métal
-            coulé, Canada.
+            <strong>{company.name}</strong> — dirigée par Guy Turgeon. Pièces en métal coulé,
+            Canada.
           </p>
           <p>© {new Date().getFullYear()} Métal Gaïa. Tous droits réservés.</p>
         </div>
