@@ -16,9 +16,9 @@ export default function Team() {
           <div className="contact-block">
             <p className="section__eyebrow">Direction</p>
             <h2>Guy Turgeon</h2>
-            <p>Aux commandes avec ses fils.</p>
+            <p>Direction.</p>
             <p style={{ marginTop: '1rem' }}>
-              Une entreprise familiale qui allie expérience du terrain et proximité avec les clients
+              Une entreprise qui allie expérience du terrain et proximité avec les clients
               industriels au Canada.
             </p>
             <p style={{ marginTop: '1.5rem' }}>
